@@ -1,4 +1,92 @@
 body {
   background-color: #010165;
   margin: 0px;
+  font-family: "Work Sans";
+  text-align: center;
+}
+
+.header {
+  background-color: #00ffff;
+}
+
+.title-row {
+  margin: 42px auto 21px auto;
+}
+
+.instructions-title {
+  display: inline;
+  font-size: 18px;
+  color: #00ffff;
+}
+
+.instructions-row {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.instructions-number {
+  padding-right: 25px;
+  font-size: 34px;
+  color: #00ffff;
+}
+
+.instructions-text {
+  padding: 10px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.userInput {
+  font-size: 18px;
+  color: #00ffff;
+  margin: 10px auto;
+}
+
+input[type="number"] {
+  text-align: center;
+  color: #010165;
+  font-family: "Work Sans";
+  background-color: #b8ffff;
+}
+
+input[type="submit"] {
+  text-align: center;
+  color: #010165;
+  font-family: "Work Sans";
+  background-color: #b8ffff;
+}
+
+.door-frame {
+  cursor: pointer;
+  padding: 10px;
+  display: inline;
+}
+
+.start-row {
+  margin: auto;
+  width: 120px;
+  height: 43px;
+  background-color: #eb6536;
+  padding-top: 18px;
+  font-size: 18px;
+  color: #010165;
+  margin-bottom: 21px;
+  cursor: pointer;
+}
+
+.results {
+  margin: auto;
+  margin-bottom: 50px;
+  width: auto;
+  height: 100px;
+}
+
+.results-type td {
+  color: #b8ffff;
+  padding: 0px 10px;
+}
+
+.results-solution td {
+  background-color: #b8ffff;
+  padding: 0px 10px;
 }
